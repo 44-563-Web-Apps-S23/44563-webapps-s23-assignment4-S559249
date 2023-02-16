@@ -1,13 +1,18 @@
-p{font-family:Georgia, 'Times New Roman', Times, serif; color: darkblue;
+.speech{
+    font-family:Georgia, 'Times New Roman', Times, serif; color: darkblue;
     font-size: 25px;
     color: black;
     }
-    #direction{font-family: 'Times New Roman', Times, serif;
+    .direction{
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     color: black;
     background-color: brown;
     }
-    #direction.hover{
+    .name{
+        font-size: 15px;
+    }
+    .direction:hover{
         color: beige;
         background-color: blue;
     }
@@ -17,3 +22,24 @@ p{font-family:Georgia, 'Times New Roman', Times, serif; color: darkblue;
     .LANE{
         color: cadetblue;
     }
+    table,tr,th,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 20px;
+    }
+    th{
+        background-color:cadetblue;
+    }
+    tr:nth-child(odd){
+        background-color:crimson;
+    }
+tr:nth-child(even){
+    background-color:cornflowerblue;
+}
+.MRSBAUER{
+    color: blueviolet;
+}
+.name:hover{
+    text-shadow: 5px 5px 3px brown;
+    border:2px dotted green;
+}
